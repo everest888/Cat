@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+     background: url(images/Shadow.png);
+     height: 100vh;
+     background-size:cover;
+     align-items: center;
+     /*overflow-y: hidden;*/
+     font-family: 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+ .header {
+     text-align: center;
+     color: white;
+     padding-top: 50px;
+     font-size: 36px;
+     font-weight:100;
+     -webkit-text-stroke: 1.8px #000000;
+     
+ }
+
+ main {
+     display: flex;
+     justify-content: space-evenly;
+     margin-top: 25px;
+     flex-wrap: wrap;
+ }
+
+ .hide{
+     background: url(images/Photo.png);
+     height: 480px;
+     width: 320px;
+     text-align: left;
+ }
+
+ .text {
+     margin-left: 70px;
+ }
+
+ h1 {
+     margin-bottom: 0;
+ }
+
+ h2 {
+     margin-top: 0;
+ }
+
+ p {
+     color: #666;
+     line-height: 1;
+ }
+
+ .top {
+    padding-top: 20px;
+ }
+
+ .circle {
+     width: 80px;
+     height: 80px;
+     background:#d91667;
+     border-radius: 50px;
+     text-align: center;
+     flex-wrap: wrap;
+     margin-top: 190px;
+     margin-left: 205px;
+     padding-top: 20px;
+     font-size: 20px;
+     color: white;
+     word-spacing: 20px;
+     line-height: 20px;
+
+ }
+ span{
+     font-size: 40px;
+ }
+ .circlechicken {
+    margin-top: 175px;
+    width: 80px;
+    height: 80px;
+    background: #d91667;
+    border-radius: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 205px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+    word-spacing: 20px;
+    line-height: 20px;
+ }
+
+ .footer{
+     color: white;
+     font-size: 13px;
+     text-align: center;
+     padding-top: 10px;
+ }
+
+ .purchase {
+     font-size: 30px;
+     color: yellowgreen;
+     display: none;
+ }
+
+
+ @media screen and (max-width: 1280px) {
+     div.contentblock {
+         width: 1200px;
+     }
+ }
+
+ @media screen and (max-width: 1140px) {
+     div.contentblock {
+         width: 1024px;
+     }
+ }
+
+ @media screen and (max-width: 992px) {
+     div.contentblock {
+         width: 970px;
+     }
+ }
+
